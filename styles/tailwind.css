@@ -11,6 +11,10 @@ html {
   margin-top: -200px;
 }
 
+details[open] {
+  @apply bg-gray-800;
+}
+
 .termsfeed-com---nb-simple {
   max-width: 560px !important;
 }
