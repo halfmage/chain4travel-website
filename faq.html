@@ -6,15 +6,36 @@ title: FAQ
 <section class="overflow-hidden mt-24 md:mt-12 py-12 md:py-32 md:pb-16">
     <div class="container mx-auto flex flex-col items-start">
         <div class="text-secondary uppercase text-sm font-bold tracking-widest mb-4 lg:mb-8">FAQ</div>
-        <h2 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
+        <h1 class="lg:text-7xl text-3xl mb-8 font-bold text-gray-50">
             Frequently asked <span class="text-primary">questions</span>
-        </h2>
+        </h1>
+    </div>
+</section>
+
+<section class="overflow-hidden container mb-16 grid grid-cols-12 gap-4">
+    <div class="col-span-4">
+        <h2 class="text-2xl md:text-4xl mb-8 font-bold text-gray-50 sticky top-4">Getting started</h2>
+    </div>
+    <div class="col-span-8">
+        {% for item in faqGettingStarted %}
+        <details class="w-full border-b border-gray-700 hover:bg-gray-800">
+            <summary class="rounded-lg text-xl cursor-pointer p-4 md:p-6 flex items-center">
+                {{ item.question }}
+                <svg class="w-10 h-10 ml-auto text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                </svg>
+            </summary>
+            <p class="px-4 pb-4 md:px-8 md:pb-8 text-gray-400">
+                {{ item.answer }}
+            </p>
+        </details>
+        {% endfor %}
     </div>
 </section>
 
 <section class="overflow-hidden mb-16">
     <div class="container mx-auto flex flex-col items-start text-gray-100">
-        {% for item in faq %}
+        {% for item in faqGettingStarted %}
         <details class="w-full border-b border-gray-700 hover:bg-gray-800">
             <summary class="rounded-lg text-2xl cursor-pointer p-4 md:p-8 flex items-center">
                 {{ item.question }}

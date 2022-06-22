@@ -1,0 +1,42 @@
+[
+    {   "category": "Getting Started",
+        "question": "What is the benefit of a blockchain like Camino for the tourism industry?",
+        "answer": "There are multiple benefits for the tourism industry. One of them lies in the current state of the tourism industry being structured by a myriad of bilateral contracts and consisting of multiple API streams. This leads to a significant reduction of speed and security and ultimately hinders the innovation pace in the industry. Blockchain can unify this technical foundation and enhance transaction speed and cost. Another benefit can be linked to GDPR, which has impacted processes in the travel industry massively. Blockchain technology offers a leverage point to mitigate or even solve those threats to the travel industry's infrastructure."
+    },
+    {   "category": "Getting Started",
+        "question": "What are use cases for a blockchain in tourism?",
+        "answer": "We identified many use cases such as: loyalty programs, inventory or identity management, demand bundling, baggage tracking, payment & tax compliance and many more."
+    },
+    {   "category": "Getting Started",
+        "question": "Are decentralized networks really safer and cheaper as centralized ones?",
+        "answer": "Decentralized networks are considered notably more secure than centralized ones. Opposed to centralized networks, there is no single point of failure, and it offers less exposure to ransomware or DDoS attacks. Blockchain technology also reduces transaction costs considerably and enables the network to operate a lot quicker and cheaper with a very low to non-existent error rate, thanks to technology."
+    },
+    {   "category": "Getting Started",
+        "question": "What does Camino mean?",
+        "answer": "When we were forming the idea of building a blockchain for the tourism industry, we were certain that we would pave a new and promising path. Thus, the spanish word “camino”, which translates as “path”, complemented our vision for the ecosystem. We perceive Camino as the path that guides the tourism industry into the future."
+    },
+    {   "category": "Getting Started",
+        "question": "Do I lose control over my data when I join the network as a partner?",
+        "answer": "On the Camino Network businesses fully control their information (inventory, customer data) and decide themselves who they want to do business with."
+    },
+    {   "category": "Getting Started",
+        "question": "How do I participate on the Camino mainnet?",
+        "answer": "To participate on the Camino Blockchain one only has to create a wallet. Follow this link to create one: https://wallet.camino.foundation/"
+    },
+    {   "category": "Getting Started",
+        "question": "Where do I find the Documentation?",
+        "answer": "All Documentation can be found here: https://docs.camino.foundation/"
+    },
+    {   "category": "Getting Started",
+        "question": "What is a validator and how can I become one?",
+        "answer": "Validators are consortium members who run the nodes and have specific governance power over the network. For example, they are responsible for validating transactions and have a vote on gas prices or on who can join as a new validator. Just like all other network participants, validators can deploy smart contracts or run dApps on Camino. To become a validator, one must be KYC/ KYB verified, stake at least 200,000 of the native token CAM, and be accepted into the role of a validator by a majority vote of the currently active validators."
+    },
+    {   "category": "Getting Started",
+        "question": "Who can run a Camino mainnet node?",
+        "answer": "To become a validator and run a node, one must be KYC verified, lock at least 200.000 CAM, and be accepted into the role of a validator by a majority vote of the currently active validators."
+    },
+    {   "category": "Getting Started",
+        "question": "Does Camino use a lot of energy?",
+        "answer": "The energy consumption of a blockchain or cryptocurrency depends on the consensus mechanism. By using the energy-efficient Proof-of-Stake and Authority (PoSA) consensus algorithm rather than Proof-of-Work (PoW), the energy consumption can be reduced significantly and at the same time the transactional speed can be increased."
+    }
+]
